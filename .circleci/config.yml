@@ -43,7 +43,7 @@ jobs:
             git add .
             git commit -m "new build with imgTag build-$TAG"
             git config credential.helper 'cache --timeout=120'
-            git push -q https://$GITHUB_PERSONAL_TOKEN@github.com/Zammel-Ibrahim/Bank-App-Kube-Manifest.git main 
+            git push -q https://$GITHUB_PERSONAL_TOKEN@github.com/Zammel-Ibrahim/Bank_App_Kube_Manifest.git main 
 workflows:
   GitOpsflow:
     jobs:
